@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="../css/styles.css">
+  <link rel="stylesheet" type="text/css" href="../css/orders.css">
+  <title>Orders</title>
+</head>
+<body>
+  <div class="top">
+    <p class="title">Galvanize Eats</p>
+  </div>
+
+  <div class="containerTwo">
+
+    <div class="orderLeft">
+      <!-- Inventory -->
+      <div class="inventory">
+        <h2 class="burgers">Burgers</h2>
+
+        <h2 class="pizza">Pizza</h2>
+
+      </div>
+      <!-- Quantity -->
+      <div>
+        <form>
+          <input class="quantity" type="number" name="quantity">
+        </form>
+      </div>
+      <!-- Add Item Button -->
+      <div>
+        <div class="addBtn">
+          <p>Add Item</p>
+        </div>
+      </div>
+      <!-- Form -->
+      <div class="customerForm">
+          <form>
+            Name:<br>
+            <input class="customerInfo" type="text" name="name">
+            <br>
+            Phone Number:<br>
+            <input class="customerInfo" type="text" name="phone">
+            <br>
+            Address:
+            <input class="customerInfo" type="text" name="address">
+            <br>
+            <input class="deliverBtn" type="submit" value="Deliver It!">
+          </form>
+      </div>
+    </div>
+
+    <div class="orderRight">
+      <!-- Receipt -->
+      <div>
+      <!-- Items -->
+        <div class="receipt">
+          <div class="recItems">
+          </div>
+          <div class="recPrices">
+          </div>
+        </div>
+      <!-- Totals -->
+        <div class="totals">
+          <p class="subtotal"></p>
+          <p class="tax"></p>
+          <h3 class="grandtotal">Grand Total</h3>
+          <p class="total"></p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <footer>
+    <p>Galvanize, 2015  +  Denver, Colorado</p>
+  </footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+  <script type="text/javascript" src="../js/itemvariables.js"></script>
+  <script type="text/javascript" src="../js/foodapp.js"></script>
+</body>
+</html>

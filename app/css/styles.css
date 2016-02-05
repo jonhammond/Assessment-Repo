@@ -1,0 +1,71 @@
+body {
+  height: 100%;
+  width: 100%;
+}
+
+footer {
+  background-color: black;
+  height: 20px;
+  color: white;
+  clear: both;
+  text-align: center;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+span {
+  width:65%;
+  height:5%;
+  z-index: 1;
+  margin: 0 auto;
+  text-align: center;
+  font-weight: 700;
+  color: white;
+  background-color: rgb(83,202,104);
+  border: 1px solid green;
+  padding: 10px 100px;
+  margin-top: 250px;
+}
+
+.container {
+  background-image: url("../../media/restaurant-hero-image.jpg");
+  height: 500px;
+  width: 100%;
+  color: white;
+  font-size: 35px;
+  text-align: center
+}
+
+.btn {
+  margin-top: 250px;
+}
+
+.left {
+  float: left;
+  width: 30%;
+}
+
+.middle {
+  float: left;
+  width: 30%;
+  margin-left: 30px;
+}
+
+.right {
+  float: right;
+  width: 30%;
+}
+
+.top {
+  background-color: rgba(0,0,0,.5);
+  color: white;
+  font-size: 25px;
+  text-align: left;
+  padding: 1px;
+}
+
+.customerForm {
+  margin-top: 10px
+}

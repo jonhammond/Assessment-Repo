@@ -1,0 +1,94 @@
+body {
+  background: orange;
+  width: 100%;
+}
+
+.recItems {
+  float: left;
+  margin-left: 20px;
+}
+
+.recPrices {
+  float: right;
+  margin-right: 20px;
+}
+
+.containerTwo {
+  width: 75%;
+  margin-left: 300px;
+}
+
+.orderLeft {
+  float: left;
+  margin-right: 20px;
+  width: 500px;
+}
+
+.orderRight {
+  float: left;
+  width: 300px;
+  height: 600px;
+  background-color: white;
+}
+
+.inventory {
+  height: 200px;
+  background-color: white;
+  overflow-y: auto;
+  margin-bottom: 20px;
+}
+
+.receipt {
+  width: 300px;
+  height: 400px;
+  background-color: white;
+  overflow-y: auto;
+  overflow-x: none;
+  display: block;
+}
+
+.item {
+  text-align: left;
+  margin-left: 20px;
+}
+
+.price {
+  text-align: right;
+  margin-right: 20px;
+}
+
+.quantity {
+  float: left;
+  width: 10%;
+  font-size: 40px;
+  margin-right: 20px;
+}
+
+.addBtn {
+  background-color: rgb(45,163,255);
+  padding: 2px;
+  text-align: center;
+  width: 20%;
+  float: left;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.deliverBtn {
+  background-color: rgb(83,202,104);
+  width: 100%;
+  text-align: center;
+  color: white;
+  padding: 2px;
+  font-size: 20px;
+  margin: 10px 0px;
+}
+
+.customerInfo {
+  width: 100%;
+  font-size: 30px;
+}
+
+.customerForm {
+  float: left;
+}
